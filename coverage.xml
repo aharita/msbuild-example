@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="coverage.xsl" type="text/xsl"?>
+<!-- saved from url=(0022)http://www.ncover.org/ -->
+<coverage profilerVersion="1.5.8 Beta" driverVersion="1.5.8.0" startTime="2012-06-16T17:23:58.2341983-07:00" measureTime="2012-06-16T17:23:58.9671983-07:00">
+  <module moduleId="16" name="C:\Users\aharita\AppData\Local\Temp\nunit20\ShadowCopyCache\7684_634754642385541983\Tests_3624542\assembly\dl3\572786ae\7e84af67_164ccd01\Calculator.DLL" assembly="Calculator" assemblyIdentity="Calculator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
+    <method name="Sum" excluded="false" instrumented="true" class="Calculator.Operations">
+      <seqpnt visitcount="1" line="12" column="13" endline="12" endcolumn="26" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Operations.cs" />
+      <seqpnt visitcount="1" line="13" column="9" endline="13" endcolumn="10" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Operations.cs" />
+    </method>
+    <method name="Divide" excluded="false" instrumented="true" class="Calculator.Operations">
+      <seqpnt visitcount="1" line="17" column="13" endline="17" endcolumn="24" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Operations.cs" />
+      <seqpnt visitcount="0" line="19" column="17" endline="19" endcolumn="58" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Operations.cs" />
+      <seqpnt visitcount="1" line="22" column="13" endline="22" endcolumn="26" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Operations.cs" />
+      <seqpnt visitcount="1" line="23" column="9" endline="23" endcolumn="10" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Operations.cs" />
+    </method>
+  </module>
+  <module moduleId="14" name="C:\Users\aharita\AppData\Local\Temp\nunit20\ShadowCopyCache\7684_634754642385541983\Tests_3624542\assembly\dl3\a387d926\9caf2277_164ccd01\Calculator.Tests.DLL" assembly="Calculator.Tests" assemblyIdentity="Calculator.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL">
+    <method name="CanSum" excluded="false" instrumented="true" class="Calculator.Tests.OperationsTests">
+      <seqpnt visitcount="1" line="11" column="13" endline="11" endcolumn="52" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\OperationsTests.cs" />
+      <seqpnt visitcount="1" line="12" column="9" endline="12" endcolumn="10" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\OperationsTests.cs" />
+    </method>
+    <method name="CanDivide" excluded="false" instrumented="true" class="Calculator.Tests.OperationsTests">
+      <seqpnt visitcount="1" line="17" column="13" endline="17" endcolumn="55" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\OperationsTests.cs" />
+      <seqpnt visitcount="1" line="18" column="9" endline="18" endcolumn="10" excluded="false" document="C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\OperationsTests.cs" />
+    </method>
+  </module>
+</coverage>

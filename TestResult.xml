@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\bin\Debug\Calculator.Tests.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-06-16" time="17:23:58">
+  <environment nunit-version="2.6.0.12051" clr-version="4.0.30319.269" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\aharita\Documents\GitHub\calculator" machine-name="NSL-AHARITA" user="aharita" user-domain="NEARSOFT" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\bin\Debug\Calculator.Tests.dll" executed="True" result="Success" success="True" time="0.063" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Calculator" executed="True" result="Success" success="True" time="0.058" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.058" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="OperationsTests" executed="True" result="Success" success="True" time="0.056" asserts="0">
+                <results>
+                  <test-case name="Calculator.Tests.OperationsTests.CanDivide" executed="True" result="Success" success="True" time="0.049" asserts="1" />
+                  <test-case name="Calculator.Tests.OperationsTests.CanSum" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

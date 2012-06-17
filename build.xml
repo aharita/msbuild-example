@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" 
+				 ToolsVersion="4.0" 
+				 DefaultTargets="NCoverExplorerSimple">
+
+	<!-- TESTING -->
+	<UsingTask
+		TaskName="NCoverExplorer.MSBuildTasks.NCoverExplorer"
+		AssemblyFile="C:\Program Files (x86)\TestDriven.NET 3\NCoverExplorer\NCoverExplorer.Extras\bin\NCoverExplorer.MSBuildTasks.dll"/>
+	<UsingTask
+		TaskName="NCoverExplorer.MSBuildTasks.NCover"
+		AssemblyFile="C:\Program Files (x86)\TestDriven.NET 3\NCoverExplorer\NCoverExplorer.Extras\bin\NCoverExplorer.MSBuildTasks.dll"/>
+	<UsingTask
+		TaskName="NCoverExplorer.MSBuildTasks.NUnitProject"
+		AssemblyFile="C:\Program Files (x86)\TestDriven.NET 3\NCoverExplorer\NCoverExplorer.Extras\bin\NCoverExplorer.MSBuildTasks.dll"/>
+	
+	<Target Name="NUnitSimple">
+		<Exec 
+			Command="&quot;C:\Program Files (x86)\TestDriven.NET 3\NUnit\2.6\nunit-console-x86.exe&quot; &quot;C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\bin\Debug\Calculator.Tests.dll&quot;"/>
+	</Target>
+	
+	<Target Name="NCoverSimple">
+		<NCover
+			ToolPath="C:\Program Files (x86)\TestDriven.NET 3\NCover\1.5.8\"
+			CommandLineExe="C:\Program Files (x86)\TestDriven.NET 3\NUnit\2.6\nunit-console-x86.exe"
+			CommandLineArgs="C:\Users\aharita\Documents\GitHub\calculator\Calculator.Tests\bin\Debug\Calculator.Tests.dll"
+		/>
+	</Target>
+	
+	<Target Name="NCoverExplorerSimple" DependsOnTargets="NCoverSimple">
+		<NCoverExplorer
+			ToolPath="C:\Program Files (x86)\TestDriven.NET 3\NCoverExplorer"
+			ProjectName="Calculator Operations Tests"
+			XmlReportName="CoverageSummary.xml"
+			HtmlReportName="CoverageSummary.html"
+			CoverageFiles="C:\Users\aharita\Documents\GitHub\calculator\coverage.xml"
+		/>
+	</Target>
+</Project>

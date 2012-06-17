@@ -1,0 +1,3 @@
+set ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+set COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe build.xml
